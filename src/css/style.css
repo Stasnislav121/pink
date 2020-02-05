@@ -518,7 +518,10 @@ body {
   display: block;
   height: 65px;
   width: 100%;
-  margin-top: 14px; }
+  margin-top: 14px; 
+  text-decoration: none;
+  color: #fff;
+}
 
 .main-nav__list {
   height: 65px;
@@ -1125,8 +1128,8 @@ Input::-webkit-input-placeholder {
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
     flex-direction: row;
-    -ms-flex-wrap: rap;
-    flex-wrap: rap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
     -webkit-box-align: end;
     -ms-flex-align: end;
     align-items: flex-end;

@@ -26,5 +26,9 @@
   },
   "engines": {
     "node": "6.10"
-  }
+  },
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "author": "",
+  "license": "ISC"
 }
