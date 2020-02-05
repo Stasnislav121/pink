@@ -1,0 +1,207 @@
+
+.filter__img {
+    width: 280px;
+    height: 374px;
+    background-image: url(../img/photo-7-mobile@1x.jpg);
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.filter__toggles--wrapper {
+    display: flex;
+    width: 240px;
+    margin: 0 auto;
+    padding-bottom: 75px;
+    padding-top: 42px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.filter__controls{
+    position: absolute;
+    margin: auto;
+    top: auto;
+    margin-top: 30px;
+    width: 280px;
+    left: 0;
+    right: 0;
+    content: none;
+    display: block;
+    z-index: 50;
+}
+.filter__control__fill,
+.filter__control__contrast {
+    display: none;
+}
+
+.filter__controls__bar {
+    width: 240px;
+    height: 2px;
+    margin: 0 auto;
+    background: #283645;
+}
+
+.filter__controls__toggle {
+    content: "";
+    position: absolute;
+    top: -4px;
+    right: 20px;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    border: 2px solid #d22856;
+    background: #d22856;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.filter__buttons{
+    width: 87.5%;
+    margin: 0 auto;
+}
+
+.filter__button--post {
+    font-size: 18px;
+    font-weight: 700;
+    width: 100%;
+    border-radius: 35px;
+    margin-bottom: 12px;
+    padding: 16px 20px;
+    line-height: 18px;
+    color: #d22856;
+    background: #f2f2f2;
+    border: 2px solid #d22856;
+}
+
+.filter__button--cancel {
+    font-size: 18px;
+    font-weight: 700;
+    width: 100%;
+    border-radius: 35px;
+    margin-bottom: 12px;
+    padding: 16px 20px;
+    color: rgba(40,54,69,.1);
+    background: #f2f2f2;
+    border: 2px solid #dddfe0;
+    outline: none; 
+
+}
+.crop__svg{
+    fill: #d22856;
+}
+
+@media (min-width:660px) {
+    .filter__item {
+        width: 100%;
+        background-color: #f2f2f2;
+        margin: 0 auto;
+    }
+    .filter--wrapper {
+        display: flex;
+        justify-content: space-around;
+        width: 94%;
+        height: 510px;
+        margin:  0 auto;
+        padding-top: 57px;
+    }
+    .filter__img {
+        background-image: url(../img/photo-7-tablet.jpg);
+        height: 400px;
+        margin: 0;
+    }
+    .filter__toggles--wrapper {
+        width: 250px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .filter__crop,
+    .filter__contrast,
+    .filter__fill {
+        position: relative; 
+        width: 100%;
+        height: 60px;
+        border-bottom: 1px solid #dddfe0;
+        margin-bottom: 26px;
+    }
+    .crop__svg{
+        width: 22px;
+        height: 22px;
+    }
+    .contrast__svg {
+        width: 16px;
+        height: 16px;
+        fill: #d22856;
+    }
+    .fill__svg {
+        width: 24px;
+        height: 22px;
+        fill: #d22856;
+    }
+    .filter__toggles--wrapper {
+        width: 300px;
+    }
+    .filter__control__fill,
+    .filter__control__contrast {
+        display: block;
+    }
+    .filter__controls{
+        width: 202px;
+        margin: 0;
+        top: 11px;
+        left: 63px;
+    }
+    .filter__controls__bar {
+        width: 100%;
+    }
+    .filter__buttons {
+        width: 96.5%;
+    }
+    .filter__button--post {
+        margin-bottom: 30px;
+    }
+    .filter__button--post,
+    .filter__button--cancel{
+        height: 55px;
+    } 
+}
+@media (min-width:960px) {
+    .filter__item {
+        width: 940px;
+    }
+    .filter--wrapper {
+        width: 940px;
+        margin: 0 auto;
+        height: 515px;
+    }
+    .filter__toggles--wrapper {
+        width: 410px;
+    }
+    .crop__svg {
+        width: 44px;
+        height: 44px;
+    }
+    .contrast__svg {
+        width: 32px;
+        height: 32px;
+    }
+    .fill__svg {
+        width: 48px;
+        height: 43px;
+    }
+    .filter__controls {
+        width: 288px;
+        top: 17px;
+        left: 90px;
+    }
+    .filter__buttons {
+        display: flex;
+        justify-content: space-between;
+        width: 410px;
+    }
+    .filter__button--post,
+    .filter__button--cancel {
+       padding: 0;
+       width: 183px;
+       margin-top: 90px;
+    } 
+}

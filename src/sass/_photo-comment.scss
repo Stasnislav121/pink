@@ -1,0 +1,171 @@
+.photo-comment--wrapper {
+    background-color: #f2f2f2;
+    width: 280px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.photo-comment_text--wrapper {
+    padding: 20px;
+}
+
+.photo-comment_title {
+    font-size: 12px;
+    line-height: 24px;
+    color: black;
+    font-weight: bolder;
+}
+
+.photo-comment_time {
+    font-size: 12px;
+    line-height: 24px;
+    color: #5e6873;
+    text-transform: uppercase;
+}
+
+.photo-comment_text {
+    font-size: 12px;
+    line-height: 24px;
+    color: #afb3b8;
+
+}
+
+.photo-comment_like {
+    font-size: 12px;
+    line-height: 24px;
+    color: #e9bcc8;
+    text-transform: uppercase;
+    position: relative;
+    padding-left: 31px;
+}
+.photo-comment_like::before {
+    position: absolute;
+    content: "";
+    width: 14px;
+    height: 14px;
+    left: 0;
+    top: 4px;
+    background-image: url(../img/icon-heart.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.photo-comment {
+    background-repeat: no-repeat;
+    display: block;
+    height: 180px;
+    width: 280px;
+}
+
+.photo-comment_1{
+    background-image: url(../img/photo-1-mobile.jpg);
+}
+.photo-comment_2{
+    background-image: url(../img/photo-2-mobile.jpg);
+}
+.photo-comment_3{
+    background-image: url(../img/photo-3-mobile.jpg);
+}
+.photo-comment_4{
+    background-image: url(../img/photo-4-mobile.jpg);
+}
+.photo-comment_5{
+    background-image: url(../img/photo-5-mobile.jpg);
+}
+.photo-comment_6{
+    background-image: url(../img/photo-6-mobile.jpg);
+}
+
+@media (min-width: 660px) {
+    .photo-comments {
+        display: flex;
+        flex-wrap: wrap;
+        width: 96.5%;
+        margin: 0 auto;
+    }
+    .photo-comment--wrapper {
+        width: 300px;
+    }
+    .photo-comment {
+        width: 300px;
+        height: 300px;
+    }
+    .main-photo_commenttop {
+        width: 95%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .top-comment_tittle {
+        width: 300px;
+        order: 1;
+    }
+    .top-comment_time {
+        order: 3;
+    }
+    .top-comment_like {
+        width: 200px;
+        order: 2;
+    }
+    .photo-comment_1{
+        background-image: url(../img/photo-1-tablet.jpg);
+    }
+    .photo-comment_2{
+        background-image: url(../img/photo-2-tablet.jpg);
+    }
+    .photo-comment_3{
+        background-image: url(../img/photo-3-tablet.jpg);
+    }
+    .photo-comment_4{
+        background-image: url(../img/photo-4-tablet.jpg);
+    }
+    .photo-comment_5{
+        background-image: url(../img/photo-5-tablet.jpg);
+    }
+    .photo-comment_6{
+        background-image: url(../img/photo-6-tablet.jpg);
+    }
+    .photo-comment_text{
+        min-height: 50px;
+    }
+    .photo-comment_like {
+        padding: 0;
+    }
+    .photo-comment_like::before {
+        left: auto;
+        right: 0;
+    }
+}
+
+@media (min-width: 960px) {
+    .photo-comments {
+        width: 940px;
+    }
+    .main-photo_commenttop {
+        width: 930px;
+    }
+    .top-comment_like {
+        margin-left: 298px;
+    }
+    .photo-comment {
+        height: 400px;
+    }
+    .photo-comment_1{
+        background-image: url(../img/photo-1-desktop.jpg);
+    }
+    .photo-comment_2{
+        background-image: url(../img/photo-2-desktop.jpg);
+    }
+    .photo-comment_3{
+        background-image: url(../img/photo-3-desktop.jpg);
+    }
+    .photo-comment_4{
+        background-image: url(../img/photo-4-desktop.jpg);
+    }
+    .photo-comment_5{
+        background-image: url(../img/photo-5-desktop.jpg);
+    }
+    .photo-comment_6{
+        background-image: url(../img/photo-6-desktop.jpg);
+    }
+}
+

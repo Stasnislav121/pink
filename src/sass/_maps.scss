@@ -1,0 +1,33 @@
+.maps {
+    position: relative;
+    height: 200px;
+}
+
+.maps::after, .maps::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50%;
+    height: 33px;
+}
+
+.maps::before {
+    left: 0;
+    background: linear-gradient(to bottom left,#ffffff 49.6%,transparent 50.4%);
+}
+
+.maps::after {
+    right: 0;
+    background: linear-gradient(to bottom right,#ffffff 49.6%,transparent 50.4%);
+    top: 0px;
+} 
+
+@media (min-width: 660px) {
+  .maps {
+    height: 375px;
+   }
+  .maps::after, 
+  .maps::before {
+    height: 70px;
+  }
+}

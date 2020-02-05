@@ -1,0 +1,48 @@
+.main-photo_see {
+    min-height: 184px;
+    padding-top: 55px;
+}
+
+.main-photo_see-wrapper,
+.main-text_bottom-wrapper  {
+    width: 87.5%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main-photo_panoramday {
+    background-image: url(../img/panoramday.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 137px;
+}   
+
+@media (min-width: 660px) {
+    .main-photo_panoramday {
+        background-image: url(../img/panoramday-tablet.jpg);
+        height: 509px;
+    }
+    .main-photo_see-wrapper {
+        width: 68.5%;
+    }
+    .main-text_bottom-wrapper {
+        width: 95%;
+        min-height: 195px;
+        padding-top: 70px;
+    }
+}
+
+@media (min-width: 960px) {
+    .main-photo_panoramday {
+        background-image: url(../img/panoramday-desktop.jpg);
+        height: 506px;
+    }
+    .main-photo_see-wrapper {
+        width: 52.5%;
+    }
+    .main-text_bottom-wrapper {
+        width: 100%;
+        min-height: 185px;
+    }
+}

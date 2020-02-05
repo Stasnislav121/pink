@@ -1,0 +1,126 @@
+.footer--wrapper {
+  display: none;
+}
+
+.footer__photo{
+  .footer__link {
+    width: 150px;
+    padding-top: 35px;
+  }
+  .footer__social {
+    width: 200px;
+  }
+  .footer__dev {
+    display: flex;
+    align-items: center;
+    width: 140px;
+  }
+  .footer__dev-name {
+    margin-right: 15px;
+  }
+  .footer__logo {
+    width: 147px;
+    height: 40px;
+  }
+  .footer__glasses {
+    fill: red;
+  }
+  .footer__social{
+    padding-top: 25px;
+  }
+  .social__list {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 200px;
+    padding: 0;
+  }
+  .social__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 52px;
+    width: 52px;
+    border: 2px solid grey;
+    border-radius: 50%;
+  }
+} 
+
+.footer__photo--wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 87.5%;
+  margin: 0 auto;
+}
+
+@media (min-width: 660px) {
+  .footer--wrapper {
+    display: flex;
+    justify-content: space-between;
+    min-height: 127px;
+    width: 94%;
+    margin: 0 auto;
+    background-color: #ffffff;
+  }
+  .footer__link {
+    width: 150px;
+    padding-top: 35px;
+  }
+  .footer__social {
+    width: 200px;
+  }
+  .footer__dev {
+    display: flex;
+    align-items: center;
+    width: 140px;
+  }
+  .footer__dev-name {
+    margin-right: 15px;
+  }
+  .footer__logo {
+    width: 147px;
+    height: 40px;
+  }
+  .footer__glasses {
+    fill: red;
+  }
+  .footer__social{
+    padding-top: 25px;
+  }
+  .social__list {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 200px;
+    padding: 0;
+  }
+  .social__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 52px;
+    width: 52px;
+    border: 2px solid grey;
+    border-radius: 50%;
+  }
+  .footer__photo--wrapper {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 94%;
+  }
+  .footer-form--wrapper {
+    width: 94%;
+  }
+  .footer__dev--photo {
+    margin-top: 45px;
+  }
+} 
+@media (min-width: 960px) {
+  .footer--wrapper,
+  .footer__photo--wrapper {
+    width: 940px;
+    margin: 0 auto;
+  }
+}
